@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+
+body{
+    background-color: rgb(244, 247, 248);
+    font-family: "Inter", sans-serif;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly ;
+    height: 60px;
+    width: 900px;
+    margin: auto;
+
+}
+.w{
+    font-size: 35px;
+    margin-right: 20vw;
+    margin-left: 2vw;
+    font-weight: bold;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    width: 100vw;
+    gap: 5vw;
+}
+.menu a{
+    text-decoration: none;
+    color:rgb(29, 29, 90);
+}
+.news{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1);
+    grid-template-areas: 
+    "a a b"
+    "c d b";
+    gap: 2px;
+    width: 900px;
+    height: 480px;
+    margin: auto;
+    padding: 10px;
+    
+}
+.img{
+    grid-area: a;
+    display: flex;
+}
+.img img{
+    width: 550px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    
+}
+.new{
+    grid-area: b;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background-color: rgb(11, 8, 44);
+    color: #f5f5dc;
+    padding: 25px;
+    justify-items: center;
+}
+.new p{
+    color: #7f7ac0;
+}
+.bright{
+    grid-area: c;
+    display: flex;
+    width: 280px;
+}
+.we{
+    grid-area: d;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    align-items: center;
+}
+.we button{
+    color: azure;
+    background-color: rgb(255, 115, 0);
+    width: 100px;
+    height: 30px;
+    border: none;
+    padding: 8px;
+}
+
+
+.related-news{
+    display: flex;
+    width: 900px;
+    margin: auto;
+    padding-top: 80px;
+    height: 185px;
+    gap: 8px;
+    padding-bottom: 12px;
+}
+.related-news img{
+    width: 100%;
+    margin-top:30px ;
+}
+.related-news h1{
+    color: rgb(110, 100, 100);
+}
+.related-news p{
+    color: rgb(73, 71, 71);
+}
+
+
+
